@@ -38,6 +38,13 @@
 
     }
 
+    @media (max-width:850px) {
+        .categories_item h1 {
+            font-size: 18px;
+
+        }
+    }
+
     @media (max-width:600px) {
         .categories_item {
             width: 100%;

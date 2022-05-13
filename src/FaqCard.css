@@ -48,12 +48,20 @@
 
 }
 
+.arrow {
+    margin-left: 5px;
+
+}
+
 @media (max-width:550px) {
     .FaqCard {
         padding: 20px;
     }
 
+    .arrow {
 
+        height: 15px;
+    }
 
     .Faq_title {
         font-size: 15px;

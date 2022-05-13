@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar() {
     return (
         <div className="Navbar">
-            <div>
+            <div className="Navbar_img" >
                 <img alt="1" src={require("./images/logo_1.png")} />
             </div>
             <div className="navbar_options" >
