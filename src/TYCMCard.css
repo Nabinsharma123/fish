@@ -1,0 +1,35 @@
+.TYCMCard {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.TYCM_img_container {
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.TYCM_img_container img {
+    height: 350px;
+}
+
+.TYCM_info {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    width: 650px;
+    position: absolute;
+}
+
+.TYCM_readMore {
+    justify-content: flex-start;
+
+}

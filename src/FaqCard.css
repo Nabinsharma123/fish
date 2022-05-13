@@ -1,0 +1,49 @@
+.faqs {
+    width: 100%;
+
+}
+
+.FaqCard {
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.FaqCard_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Faq_title {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.Faq_content {
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+
+
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+}
