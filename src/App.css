@@ -91,7 +91,8 @@
 
   padding: 60px 120px;
 
-  height: 325px;
+  /* height: 325px; */
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -181,6 +182,23 @@
     .App {
       margin: 0 30px;
 
+    }
+  }
+
+  @media (max-width:900px) {
+    .footer {
+      padding: 30px 60px;
+    }
+
+    .footer_inner {
+      flex-direction: column;
+    }
+
+    @media (max-width:600px) {
+
+      .footer_options {
+        flex-direction: column;
+      }
     }
   }
 }

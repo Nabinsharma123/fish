@@ -47,3 +47,16 @@
 
 
 }
+
+@media (max-width:550px) {
+    .FaqCard {
+        padding: 20px;
+    }
+
+
+
+    .Faq_title {
+        font-size: 15px;
+
+    }
+}
